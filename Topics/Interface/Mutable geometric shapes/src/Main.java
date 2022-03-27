@@ -8,6 +8,12 @@ interface Scalable {
     void scale(float factor);
 }
 
+
+interface MutableShape extends Movable, Scalable {
+    
+}
+
+
 final class Circle {
 
     /**
