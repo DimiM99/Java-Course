@@ -1,0 +1,7 @@
+content:
+- Theory
+- Avoid NPE with strings
+- Unknown input
+- Lines that may throw NPE
+- Code that throws an exception
+- Avoid NPE
