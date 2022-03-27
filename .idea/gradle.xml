@@ -40,9 +40,12 @@
             <option value="$PROJECT_DIR$/Topics/Inheritance/Theory" />
             <option value="$PROJECT_DIR$/Topics/Instance methods/Counter" />
             <option value="$PROJECT_DIR$/Topics/Instance methods/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Account Service" />
             <option value="$PROJECT_DIR$/Topics/Interface/Implementing an interface" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Interface methods" />
             <option value="$PROJECT_DIR$/Topics/Interface/Marker interface" />
             <option value="$PROJECT_DIR$/Topics/Interface/Mutable geometric shapes" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Properties of methods" />
             <option value="$PROJECT_DIR$/Topics/Interface/Theory" />
             <option value="$PROJECT_DIR$/Topics/Interface/What does an interface define" />
             <option value="$PROJECT_DIR$/Topics/Interface/Which methods must be overridden" />
