@@ -1,4 +1,4 @@
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
 
@@ -8,9 +8,15 @@ public class Main {
         final String str = scanner.nextLine();
         final int number = Integer.parseInt(scanner.nextLine());
 
-        Returner returner = /* create an instance of an anonymous class here, 
-                               do not forget ; on the end;
-                               variables str and number will be accessible during testing */
+        Returner returner = new Returner() {
+            @Override public String returnString() {
+                return str;
+            }
+
+            @Override public int returnInt() {
+                return number;
+            }
+        };
 
         System.out.println(returner.returnString());
         System.out.println(returner.returnInt()); 
