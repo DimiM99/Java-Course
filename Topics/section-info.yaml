@@ -21,3 +21,5 @@ content:
 - Interface
 - Anonymous classes
 - Default methods
+- Boxing and unboxing
+- Introduction to generic programming

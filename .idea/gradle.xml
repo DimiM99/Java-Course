@@ -27,6 +27,10 @@
             <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Theory" />
             <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Varargs" />
             <option value="$PROJECT_DIR$/Topics/Arrays as parameters/What does the code print" />
+            <option value="$PROJECT_DIR$/Topics/Boxing and unboxing/Identify a possible exception" />
+            <option value="$PROJECT_DIR$/Topics/Boxing and unboxing/Initializing long value" />
+            <option value="$PROJECT_DIR$/Topics/Boxing and unboxing/Safe converting" />
+            <option value="$PROJECT_DIR$/Topics/Boxing and unboxing/Theory" />
             <option value="$PROJECT_DIR$/Topics/Comments/The forgotten comments" />
             <option value="$PROJECT_DIR$/Topics/Comments/Theory" />
             <option value="$PROJECT_DIR$/Topics/Comments/What comments are not used in the program" />
@@ -62,6 +66,10 @@
             <option value="$PROJECT_DIR$/Topics/Interface/Which methods must be overridden" />
             <option value="$PROJECT_DIR$/Topics/Introduction to Java/Hello" />
             <option value="$PROJECT_DIR$/Topics/Introduction to Java/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Correct the program" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Creating instances" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Type arguments" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Count how many times a number occurs" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Cyclically shifting elements" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Does an array contain N" />
