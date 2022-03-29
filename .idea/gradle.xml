@@ -75,8 +75,14 @@
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Does an array contain N" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Find the sum" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Apply function to all elements" />
             <option value="$PROJECT_DIR$/Topics/Lambda expressions/Creating a closure" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Expression closure" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Expressions" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Max of two integers" />
             <option value="$PROJECT_DIR$/Topics/Lambda expressions/Next even number" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Parts of code" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Statements" />
             <option value="$PROJECT_DIR$/Topics/Lambda expressions/Theory" />
             <option value="$PROJECT_DIR$/Topics/NPE/Avoid NPE" />
             <option value="$PROJECT_DIR$/Topics/NPE/Avoid NPE with strings" />
