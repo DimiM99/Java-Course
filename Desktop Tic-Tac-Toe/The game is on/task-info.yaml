@@ -312,6 +312,21 @@ files:
         }
     }
   learner_created: false
-feedback_link: https://hyperskill.org/projects/174/stages/898/implement#comment
+- name: src/tictactoe/Cell.java
+  visible: true
+  text: |
+    package tictactoe;
+
+    import javax.swing.*;
+
+    public class Cell extends JButton {
+        Cell(String name, String text) {
+            setName(name);
+            setText(text);
+            setEnabled(true);
+        }
+    }
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/12895#comment
 status: Unchecked
 record: -1
