@@ -25,3 +25,6 @@ content:
 - Introduction to generic programming
 - Lambda expressions
 - Functional interfaces
+- Enums in Java
+- Fields and methods in enum
+- Getters and setters

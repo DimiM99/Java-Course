@@ -42,8 +42,18 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-Default_methods-What_is_the_reason_for_default_methods.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Defining_classes-Inner_boxes.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Defining_classes-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Enums_in_Java-Currencies.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Enums_in_Java-Days_of_week.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Enums_in_Java-Hidden_enumeration.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Enums_in_Java-Reasons_to_use_enum.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Enums_in_Java-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Errors_in_programs-Fix_compile-time_errors.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Errors_in_programs-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Fields_and_methods_in_enum-Balance_management.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Fields_and_methods_in_enum-Danger_levels.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Fields_and_methods_in_enum-Planets_of_the_solar_system.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Fields_and_methods_in_enum-Robot_control.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Fields_and_methods_in_enum-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Functional_decomposition-Create_a_full_name.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Functional_decomposition-Decompose_a_math_function.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Functional_decomposition-Roots_of_quadratic_equation.main" target="11" />
@@ -52,6 +62,8 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-Functional_interfaces-Statements.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Functional_interfaces-Ternary_predicate.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Functional_interfaces-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Getters_and_setters-Getting_the_fullname.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Getters_and_setters-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Inheritance-Classes_for_Hospital.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Inheritance-Find_the_same_hierarchy.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Inheritance-Theory.main" target="11" />
