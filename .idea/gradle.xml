@@ -146,6 +146,10 @@
             <option value="$PROJECT_DIR$/Topics/The main method/Theory" />
             <option value="$PROJECT_DIR$/Topics/Types and variables/Fill the declaration" />
             <option value="$PROJECT_DIR$/Topics/Types and variables/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Window listeners/Add a window" />
+            <option value="$PROJECT_DIR$/Topics/Window listeners/Count a window active time" />
+            <option value="$PROJECT_DIR$/Topics/Window listeners/Implement a listener" />
+            <option value="$PROJECT_DIR$/Topics/Window listeners/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

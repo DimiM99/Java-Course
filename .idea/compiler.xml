@@ -137,6 +137,10 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-The_main_method-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Types_and_variables-Fill_the_declaration.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Types_and_variables-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Window_listeners-Add_a_window.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Window_listeners-Count_a_window_active_time.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Window_listeners-Implement_a_listener.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Window_listeners-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>
