@@ -118,6 +118,10 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-Scanning_the_input-Printing_each_word_in_a_new_line.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Scanning_the_input-Printing_strings_in_the_same_order.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Scanning_the_input-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Standard_logger-Default_log_level.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Standard_logger-Find_integer_values_of_Log_levels.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Standard_logger-Handler_Classes.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Standard_logger-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-String-Check_burgs.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-String-Check_prefix_ignoring_the_case.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-String-Operations_with_strings.main" target="11" />

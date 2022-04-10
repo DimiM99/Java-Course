@@ -127,6 +127,10 @@
             <option value="$PROJECT_DIR$/Topics/Scanning the input/Printing each word in a new line" />
             <option value="$PROJECT_DIR$/Topics/Scanning the input/Printing strings in the same order" />
             <option value="$PROJECT_DIR$/Topics/Scanning the input/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Standard logger/Default log level" />
+            <option value="$PROJECT_DIR$/Topics/Standard logger/Find integer values of Log levels" />
+            <option value="$PROJECT_DIR$/Topics/Standard logger/Handler Classes" />
+            <option value="$PROJECT_DIR$/Topics/Standard logger/Theory" />
             <option value="$PROJECT_DIR$/Topics/String/Check burgs" />
             <option value="$PROJECT_DIR$/Topics/String/Check prefix ignoring the case" />
             <option value="$PROJECT_DIR$/Topics/String/Operations with strings" />

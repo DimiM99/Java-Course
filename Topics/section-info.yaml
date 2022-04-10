@@ -29,3 +29,4 @@ content:
 - Fields and methods in enum
 - Getters and setters
 - Window listeners
+- Standard logger
