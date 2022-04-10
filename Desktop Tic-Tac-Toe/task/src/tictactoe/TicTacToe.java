@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Arrays;
 
 public class TicTacToe extends JFrame {
 
@@ -17,9 +18,10 @@ public class TicTacToe extends JFrame {
     Cell ButtonC2 = new Cell("ButtonC2", "C2");
     Cell ButtonC3 = new Cell("ButtonC3", "C3");
     MenuButton ButtonReset = new MenuButton("ButtonReset", "Reset");
-    LabelStatus LabelStatus = new LabelStatus("LabelStatus", "");
+    static LabelStatus LabelStatus = new LabelStatus("LabelStatus", "");
     JPanel StatusBar = new JPanel(new GridLayout(1,2));
     JPanel GameField = new JPanel(new GridLayout(3,3));
+    static int cellsPressed = 0;
 
     public TicTacToe() {
         setTitle("Tic Tac Toe");
@@ -56,11 +58,12 @@ public class TicTacToe extends JFrame {
             public void actionPerformed(ActionEvent actionEvent) {
                 if (ButtonA1.getText().equals(" ")) {
                     ButtonA1.setText(Game.getCurrentPlayer());
-                    Game.channgeCurrentPlayer();
+                    Game.row3[0] = Game.currenrtPlayer;
+                    cellsPressed++;
                 } else {
                     JOptionPane.showMessageDialog(null, "This cell is already taken");
                 }
-                //checkWinner();
+                Game.checkWinner();
             }
         });
 
@@ -69,11 +72,12 @@ public class TicTacToe extends JFrame {
             public void actionPerformed(ActionEvent actionEvent) {
                 if (ButtonA2.getText().equals(" ")) {
                     ButtonA2.setText(Game.getCurrentPlayer());
-                    Game.channgeCurrentPlayer();
+                    Game.row2[0] = Game.currenrtPlayer;
+                    cellsPressed++;
                 } else {
                     JOptionPane.showMessageDialog(null, "This cell is already taken");
                 }
-                //checkWinner();
+                Game.checkWinner();
             }
         });
 
@@ -82,11 +86,12 @@ public class TicTacToe extends JFrame {
             public void actionPerformed(ActionEvent actionEvent) {
                 if (ButtonA3.getText().equals(" ")) {
                     ButtonA3.setText(Game.getCurrentPlayer());
-                    Game.channgeCurrentPlayer();
+                    Game.row1[0] = Game.currenrtPlayer;
+                    cellsPressed++;
                 } else {
                     JOptionPane.showMessageDialog(null, "This cell is already taken");
                 }
-                //checkWinner();
+                Game.checkWinner();
             }
         });
 
@@ -95,11 +100,12 @@ public class TicTacToe extends JFrame {
             public void actionPerformed(ActionEvent actionEvent) {
                 if (ButtonB1.getText().equals(" ")) {
                     ButtonB1.setText(Game.getCurrentPlayer());
-                    Game.channgeCurrentPlayer();
+                    Game.row3[1] = Game.currenrtPlayer;
+                    cellsPressed++;
                 } else {
                     JOptionPane.showMessageDialog(null, "This cell is already taken");
                 }
-                //checkWinner();
+                Game.checkWinner();
             }
         });
 
@@ -108,11 +114,12 @@ public class TicTacToe extends JFrame {
             public void actionPerformed(ActionEvent actionEvent) {
                 if (ButtonB2.getText().equals(" ")) {
                     ButtonB2.setText(Game.getCurrentPlayer());
-                    Game.channgeCurrentPlayer();
+                    Game.row2[1] = Game.currenrtPlayer;
+                    cellsPressed++;
                 } else {
                     JOptionPane.showMessageDialog(null, "This cell is already taken");
                 }
-                //checkWinner();
+                Game.checkWinner();
             }
         });
 
@@ -121,11 +128,12 @@ public class TicTacToe extends JFrame {
             public void actionPerformed(ActionEvent actionEvent) {
                 if (ButtonB3.getText().equals(" ")) {
                     ButtonB3.setText(Game.getCurrentPlayer());
-                    Game.channgeCurrentPlayer();
+                    Game.row1[1] = Game.currenrtPlayer;
+                    cellsPressed++;
                 } else {
                     JOptionPane.showMessageDialog(null, "This cell is already taken");
                 }
-                //checkWinner();
+                Game.checkWinner();
             }
         });
 
@@ -134,11 +142,12 @@ public class TicTacToe extends JFrame {
             public void actionPerformed(ActionEvent actionEvent) {
                 if (ButtonC1.getText().equals(" ")) {
                     ButtonC1.setText(Game.getCurrentPlayer());
-                    Game.channgeCurrentPlayer();
+                    Game.row3[2] = Game.currenrtPlayer;
+                    cellsPressed++;
                 } else {
                     JOptionPane.showMessageDialog(null, "This cell is already taken");
                 }
-                //checkWinner();
+                Game.checkWinner();
             }
         });
 
@@ -147,11 +156,12 @@ public class TicTacToe extends JFrame {
             public void actionPerformed(ActionEvent actionEvent) {
                 if (ButtonC2.getText().equals(" ")) {
                     ButtonC2.setText(Game.getCurrentPlayer());
-                    Game.channgeCurrentPlayer();
+                    Game.row2[2] = Game.currenrtPlayer;
+                    cellsPressed++;
                 } else {
                     JOptionPane.showMessageDialog(null, "This cell is already taken");
                 }
-                //checkWinner();
+                Game.checkWinner();
             }
         });
 
@@ -160,11 +170,12 @@ public class TicTacToe extends JFrame {
             public void actionPerformed(ActionEvent actionEvent) {
                 if (ButtonC3.getText().equals(" ")) {
                     ButtonC3.setText(Game.getCurrentPlayer());
-                    Game.channgeCurrentPlayer();
+                    Game.row1[2] = Game.currenrtPlayer;
+                    cellsPressed++;
                 } else {
                     JOptionPane.showMessageDialog(null, "This cell is already taken");
                 }
-                //checkWinner();
+                Game.checkWinner();
             }
         });
 
@@ -175,6 +186,8 @@ public class TicTacToe extends JFrame {
             }
         });
     }
+
+
 
     public void resetGame() {
         ButtonA1.setText(" ");
@@ -187,7 +200,12 @@ public class TicTacToe extends JFrame {
         ButtonC2.setText(" ");
         ButtonC3.setText(" ");
         LabelStatus.setText("Game is not started");
-        Game.gameState = status.NOT_STARTED
+        Game.gameState = status.NOT_STARTED;
+        Arrays.fill(Game.row1, null);
+        Arrays.fill(Game.row2, null);
+        Arrays.fill(Game.row3, null);
+        cellsPressed = 0;
+        LabelStatus.setText(Game.getCurrentState());
     }
 
 }
