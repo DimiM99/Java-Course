@@ -8,15 +8,15 @@ import java.util.Arrays;
 
 public class TicTacToe extends JFrame {
 
-    Cell ButtonA1 = new Cell("ButtonA1", "A1");
-    Cell ButtonA2 = new Cell("ButtonA2", "A2");
-    Cell ButtonA3 = new Cell("ButtonA3", "A3");
-    Cell ButtonB1 = new Cell("ButtonB1", "B1");
-    Cell ButtonB2 = new Cell("ButtonB2", "B2");
-    Cell ButtonB3 = new Cell("ButtonB3", "B3");
-    Cell ButtonC1 = new Cell("ButtonC1", "C1");
-    Cell ButtonC2 = new Cell("ButtonC2", "C2");
-    Cell ButtonC3 = new Cell("ButtonC3", "C3");
+    static Cell ButtonA1 = new Cell("ButtonA1", "A1");
+    static Cell ButtonA2 = new Cell("ButtonA2", "A2");
+    static Cell ButtonA3 = new Cell("ButtonA3", "A3");
+    static Cell ButtonB1 = new Cell("ButtonB1", "B1");
+    static Cell ButtonB2 = new Cell("ButtonB2", "B2");
+    static Cell ButtonB3 = new Cell("ButtonB3", "B3");
+    static Cell ButtonC1 = new Cell("ButtonC1", "C1");
+    static Cell ButtonC2 = new Cell("ButtonC2", "C2");
+    static Cell ButtonC3 = new Cell("ButtonC3", "C3");
     MenuButton ButtonReset = new MenuButton("ButtonReset", "Reset");
     static LabelStatus LabelStatus = new LabelStatus("LabelStatus", "");
     JPanel StatusBar = new JPanel(new GridLayout(1,2));
@@ -189,7 +189,32 @@ public class TicTacToe extends JFrame {
 
 
 
+    public static void gameEnd() {
+        ButtonA1.setEnabled(false);
+        ButtonA2.setEnabled(false);
+        ButtonA3.setEnabled(false);
+        ButtonB1.setEnabled(false);
+        ButtonB2.setEnabled(false);
+        ButtonB3.setEnabled(false);
+        ButtonC1.setEnabled(false);
+        ButtonC2.setEnabled(false);
+        ButtonC3.setEnabled(false);
+    }
+
+    public static void gameStart() {
+        ButtonA1.setEnabled(true);
+        ButtonA2.setEnabled(true);
+        ButtonA3.setEnabled(true);
+        ButtonB1.setEnabled(true);
+        ButtonB2.setEnabled(true);
+        ButtonB3.setEnabled(true);
+        ButtonC1.setEnabled(true);
+        ButtonC2.setEnabled(true);
+        ButtonC3.setEnabled(true);
+    }
+
     public void resetGame() {
+        gameStart();
         ButtonA1.setText(" ");
         ButtonA2.setText(" ");
         ButtonA3.setText(" ");
@@ -200,6 +225,7 @@ public class TicTacToe extends JFrame {
         ButtonC2.setText(" ");
         ButtonC3.setText(" ");
         LabelStatus.setText("Game is not started");
+        Game.currenrtPlayer = Player.X;
         Game.gameState = status.NOT_STARTED;
         Arrays.fill(Game.row1, null);
         Arrays.fill(Game.row2, null);

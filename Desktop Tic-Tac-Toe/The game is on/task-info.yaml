@@ -331,11 +331,8 @@ files:
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/12895#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Wrong answer in test #18
-
-    Incorrect game state
-  time: Sun, 10 Apr 2022 16:44:32 UTC
-record: -1
+  message: Congratulations!
+  time: Mon, 11 Apr 2022 08:37:51 UTC
+record: 2

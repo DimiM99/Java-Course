@@ -116,8 +116,10 @@ public class Game {
                     gameState = status.O_WON;
                     break;
             }
+            TicTacToe.gameEnd();
         } else if (TicTacToe.cellsPressed == 9) {
             gameState = status.DRAW;
+            TicTacToe.gameEnd();
         } else {
             gameState = status.UNFINISHED;
         }
