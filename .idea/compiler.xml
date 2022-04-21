@@ -105,6 +105,10 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-NPE-Lines_that_may_throw_NPE.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-NPE-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-NPE-Unknown_input.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Overloading-A_pair_of_not_overloaded_methods.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Overloading-Overloading_methods.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Overloading-Print.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Overloading-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Primitive_and_reference_types-Code_with_nulls.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Primitive_and_reference_types-Creating_a_primitive.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Primitive_and_reference_types-Creating_a_reference_type.main" target="11" />
@@ -137,6 +141,14 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-Switch_statement-Statements.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Switch_statement-Test_learners.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Switch_statement-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_keyword_super-Accessing_constructors_of_a_base_class.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_keyword_super-Bank_account.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_keyword_super-Employees.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_keyword_super-Fix_the_non-compiled_hierarchy.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_keyword_super-Statements.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_keyword_super-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_keyword_super-When_the_keyword_is_used.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_keyword_super-Why_we_use_the_super_keyword.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-The_main_method-Print__We_are_robots.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-The_main_method-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Types_and_variables-Fill_the_declaration.main" target="11" />

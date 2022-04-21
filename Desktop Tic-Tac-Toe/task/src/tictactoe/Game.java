@@ -1,20 +1,20 @@
 package tictactoe;
 
 public class Game {
-    static Player currenrtPlayer = Player.X;
+    static Player currentPlayer = Player.X;
     static status gameState = status.NOT_STARTED;
 
     static Player[] row1 = new Player[3];
     static Player[] row2 = new Player[3];
     static Player[] row3 = new Player[3];
 
-    public static void channgeCurrentPlayer() {
-        switch (currenrtPlayer) {
+    public static void changeCurrentPlayer() {
+        switch (currentPlayer) {
             case O:
-                currenrtPlayer = Player.X;
+                currentPlayer = Player.X;
                 break;
             case X:
-                currenrtPlayer = Player.O;
+                currentPlayer = Player.O;
                 break;
             default:
                 break;
@@ -22,7 +22,7 @@ public class Game {
     }
 
     public static String getCurrentPlayer() {
-        switch (currenrtPlayer) {
+        switch (currentPlayer) {
             case O:
                 return "O";
             case X:
@@ -53,52 +53,52 @@ public class Game {
         boolean result = false;
         if (TicTacToe.cellsPressed > 4) {
             try {
-                if (row1[0].equals(currenrtPlayer) && row1[1].equals(currenrtPlayer) && row1[2].equals(currenrtPlayer)) {
+                if (row1[0].equals(currentPlayer) && row1[1].equals(currentPlayer) && row1[2].equals(currentPlayer)) {
                     result = true;
                 }
-            } catch (Exception e) {
+            } catch (Exception ignored) {
             }
             try {
-                if (row2[0].equals(currenrtPlayer) && row2[1].equals(currenrtPlayer) && row2[2].equals(currenrtPlayer)) {
+                if (row2[0].equals(currentPlayer) && row2[1].equals(currentPlayer) && row2[2].equals(currentPlayer)) {
                     result = true;
                 }
-            } catch (Exception e) {
+            } catch (Exception ignored) {
             }
             try {
-                if (row3[0].equals(currenrtPlayer) && row3[1].equals(currenrtPlayer) && row3[2].equals(currenrtPlayer)) {
+                if (row3[0].equals(currentPlayer) && row3[1].equals(currentPlayer) && row3[2].equals(currentPlayer)) {
                     result = true;
                 }
-            } catch (Exception e) {
+            } catch (Exception ignored) {
             }
             try {
-                if (row3[0].equals(currenrtPlayer) && row2[1].equals(currenrtPlayer) && row1[2].equals(currenrtPlayer)) {
+                if (row3[0].equals(currentPlayer) && row2[1].equals(currentPlayer) && row1[2].equals(currentPlayer)) {
                     result = true;
                 }
-            } catch (Exception e) {
+            } catch (Exception ignored) {
             }
             try {
-                if (row1[0].equals(currenrtPlayer) && row2[1].equals(currenrtPlayer) && row3[2].equals(currenrtPlayer)) {
+                if (row1[0].equals(currentPlayer) && row2[1].equals(currentPlayer) && row3[2].equals(currentPlayer)) {
                     result = true;
                 }
-            } catch (Exception e) {
+            } catch (Exception ignored) {
             }
             try {
-                if (row1[0].equals(currenrtPlayer) && row2[0].equals(currenrtPlayer) && row3[0].equals(currenrtPlayer)) {
+                if (row1[0].equals(currentPlayer) && row2[0].equals(currentPlayer) && row3[0].equals(currentPlayer)) {
                     result = true;
                 }
-            } catch (Exception e) {
+            } catch (Exception ignored) {
             }
             try {
-                if (row1[1].equals(currenrtPlayer) && row2[1].equals(currenrtPlayer) && row3[1].equals(currenrtPlayer)) {
+                if (row1[1].equals(currentPlayer) && row2[1].equals(currentPlayer) && row3[1].equals(currentPlayer)) {
                     result = true;
                 }
-            } catch (Exception e) {
+            } catch (Exception ignored) {
             }
             try {
-                if (row1[2].equals(currenrtPlayer) && row2[2].equals(currenrtPlayer) && row3[2].equals(currenrtPlayer)) {
+                if (row1[2].equals(currentPlayer) && row2[2].equals(currentPlayer) && row3[2].equals(currentPlayer)) {
                     result = true;
                 }
-            } catch (Exception e) {
+            } catch (Exception ignored) {
             }
         }
         return result;
@@ -108,7 +108,7 @@ public class Game {
     public static void checkWinner() {
         boolean WON = checkForPayer();
         if (WON) {
-            switch (currenrtPlayer) {
+            switch (currentPlayer) {
                 case X:
                     gameState = status.X_WON;
                     break;
@@ -123,7 +123,7 @@ public class Game {
         } else {
             gameState = status.UNFINISHED;
         }
-        channgeCurrentPlayer();
+        changeCurrentPlayer();
         TicTacToe.LabelStatus.setText(getCurrentState());
     }
 

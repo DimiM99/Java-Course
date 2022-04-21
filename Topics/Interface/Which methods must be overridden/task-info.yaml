@@ -1,9 +1,9 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: method
 - text: defaultMethod
 - text: staticMethod
+- text: method
 - text: abstractMethod
 files:
 - name: src/Task.java

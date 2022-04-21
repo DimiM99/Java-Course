@@ -30,3 +30,5 @@ content:
 - Getters and setters
 - Window listeners
 - Standard logger
+- Overloading
+- The keyword super

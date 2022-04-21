@@ -1,9 +1,9 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: End-of-line comments
-- text: Javadoc comments
 - text: All types of comments are used here
+- text: Javadoc comments
+- text: End-of-line comments
 - text: Standard multi-line comments
 files:
 - name: src/Task.java

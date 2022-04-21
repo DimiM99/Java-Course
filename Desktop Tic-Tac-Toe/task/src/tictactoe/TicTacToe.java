@@ -2,8 +2,8 @@ package tictactoe;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+//import java.awt.event.ActionEvent;
+//import java.awt.event.ActionListener;
 import java.util.Arrays;
 
 public class TicTacToe extends JFrame {
@@ -53,138 +53,106 @@ public class TicTacToe extends JFrame {
         setVisible(true);
         resetGame();
 
-        ButtonA1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (ButtonA1.getText().equals(" ")) {
-                    ButtonA1.setText(Game.getCurrentPlayer());
-                    Game.row3[0] = Game.currenrtPlayer;
-                    cellsPressed++;
-                } else {
-                    JOptionPane.showMessageDialog(null, "This cell is already taken");
-                }
-                Game.checkWinner();
+        ButtonA1.addActionListener(actionEvent -> {
+            if (ButtonA1.getText().equals(" ")) {
+                ButtonA1.setText(Game.getCurrentPlayer());
+                Game.row3[0] = Game.currentPlayer;
+                cellsPressed++;
+            } else {
+                JOptionPane.showMessageDialog(null, "This cell is already taken");
             }
+            Game.checkWinner();
         });
 
-        ButtonA2.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (ButtonA2.getText().equals(" ")) {
-                    ButtonA2.setText(Game.getCurrentPlayer());
-                    Game.row2[0] = Game.currenrtPlayer;
-                    cellsPressed++;
-                } else {
-                    JOptionPane.showMessageDialog(null, "This cell is already taken");
-                }
-                Game.checkWinner();
+        ButtonA2.addActionListener(actionEvent -> {
+            if (ButtonA2.getText().equals(" ")) {
+                ButtonA2.setText(Game.getCurrentPlayer());
+                Game.row2[0] = Game.currentPlayer;
+                cellsPressed++;
+            } else {
+                JOptionPane.showMessageDialog(null, "This cell is already taken");
             }
+            Game.checkWinner();
         });
 
-        ButtonA3.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (ButtonA3.getText().equals(" ")) {
-                    ButtonA3.setText(Game.getCurrentPlayer());
-                    Game.row1[0] = Game.currenrtPlayer;
-                    cellsPressed++;
-                } else {
-                    JOptionPane.showMessageDialog(null, "This cell is already taken");
-                }
-                Game.checkWinner();
+        ButtonA3.addActionListener(actionEvent -> {
+            if (ButtonA3.getText().equals(" ")) {
+                ButtonA3.setText(Game.getCurrentPlayer());
+                Game.row1[0] = Game.currentPlayer;
+                cellsPressed++;
+            } else {
+                JOptionPane.showMessageDialog(null, "This cell is already taken");
             }
+            Game.checkWinner();
         });
 
-        ButtonB1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (ButtonB1.getText().equals(" ")) {
-                    ButtonB1.setText(Game.getCurrentPlayer());
-                    Game.row3[1] = Game.currenrtPlayer;
-                    cellsPressed++;
-                } else {
-                    JOptionPane.showMessageDialog(null, "This cell is already taken");
-                }
-                Game.checkWinner();
+        ButtonB1.addActionListener(actionEvent -> {
+            if (ButtonB1.getText().equals(" ")) {
+                ButtonB1.setText(Game.getCurrentPlayer());
+                Game.row3[1] = Game.currentPlayer;
+                cellsPressed++;
+            } else {
+                JOptionPane.showMessageDialog(null, "This cell is already taken");
             }
+            Game.checkWinner();
         });
 
-        ButtonB2.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (ButtonB2.getText().equals(" ")) {
-                    ButtonB2.setText(Game.getCurrentPlayer());
-                    Game.row2[1] = Game.currenrtPlayer;
-                    cellsPressed++;
-                } else {
-                    JOptionPane.showMessageDialog(null, "This cell is already taken");
-                }
-                Game.checkWinner();
+        ButtonB2.addActionListener(actionEvent -> {
+            if (ButtonB2.getText().equals(" ")) {
+                ButtonB2.setText(Game.getCurrentPlayer());
+                Game.row2[1] = Game.currentPlayer;
+                cellsPressed++;
+            } else {
+                JOptionPane.showMessageDialog(null, "This cell is already taken");
             }
+            Game.checkWinner();
         });
 
-        ButtonB3.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (ButtonB3.getText().equals(" ")) {
-                    ButtonB3.setText(Game.getCurrentPlayer());
-                    Game.row1[1] = Game.currenrtPlayer;
-                    cellsPressed++;
-                } else {
-                    JOptionPane.showMessageDialog(null, "This cell is already taken");
-                }
-                Game.checkWinner();
+        ButtonB3.addActionListener(actionEvent -> {
+            if (ButtonB3.getText().equals(" ")) {
+                ButtonB3.setText(Game.getCurrentPlayer());
+                Game.row1[1] = Game.currentPlayer;
+                cellsPressed++;
+            } else {
+                JOptionPane.showMessageDialog(null, "This cell is already taken");
             }
+            Game.checkWinner();
         });
 
-        ButtonC1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (ButtonC1.getText().equals(" ")) {
-                    ButtonC1.setText(Game.getCurrentPlayer());
-                    Game.row3[2] = Game.currenrtPlayer;
-                    cellsPressed++;
-                } else {
-                    JOptionPane.showMessageDialog(null, "This cell is already taken");
-                }
-                Game.checkWinner();
+        ButtonC1.addActionListener(actionEvent -> {
+            if (ButtonC1.getText().equals(" ")) {
+                ButtonC1.setText(Game.getCurrentPlayer());
+                Game.row3[2] = Game.currentPlayer;
+                cellsPressed++;
+            } else {
+                JOptionPane.showMessageDialog(null, "This cell is already taken");
             }
+            Game.checkWinner();
         });
 
-        ButtonC2.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (ButtonC2.getText().equals(" ")) {
-                    ButtonC2.setText(Game.getCurrentPlayer());
-                    Game.row2[2] = Game.currenrtPlayer;
-                    cellsPressed++;
-                } else {
-                    JOptionPane.showMessageDialog(null, "This cell is already taken");
-                }
-                Game.checkWinner();
+        ButtonC2.addActionListener(actionEvent -> {
+            if (ButtonC2.getText().equals(" ")) {
+                ButtonC2.setText(Game.getCurrentPlayer());
+                Game.row2[2] = Game.currentPlayer;
+                cellsPressed++;
+            } else {
+                JOptionPane.showMessageDialog(null, "This cell is already taken");
             }
+            Game.checkWinner();
         });
 
-        ButtonC3.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (ButtonC3.getText().equals(" ")) {
-                    ButtonC3.setText(Game.getCurrentPlayer());
-                    Game.row1[2] = Game.currenrtPlayer;
-                    cellsPressed++;
-                } else {
-                    JOptionPane.showMessageDialog(null, "This cell is already taken");
-                }
-                Game.checkWinner();
+        ButtonC3.addActionListener(actionEvent -> {
+            if (ButtonC3.getText().equals(" ")) {
+                ButtonC3.setText(Game.getCurrentPlayer());
+                Game.row1[2] = Game.currentPlayer;
+                cellsPressed++;
+            } else {
+                JOptionPane.showMessageDialog(null, "This cell is already taken");
             }
+            Game.checkWinner();
         });
 
-        ButtonReset.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                resetGame();
-            }
-        });
+        ButtonReset.addActionListener(actionEvent -> resetGame());
     }
 
 
@@ -225,7 +193,7 @@ public class TicTacToe extends JFrame {
         ButtonC2.setText(" ");
         ButtonC3.setText(" ");
         LabelStatus.setText("Game is not started");
-        Game.currenrtPlayer = Player.X;
+        Game.currentPlayer = Player.X;
         Game.gameState = status.NOT_STARTED;
         Arrays.fill(Game.row1, null);
         Arrays.fill(Game.row2, null);

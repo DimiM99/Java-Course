@@ -2,9 +2,9 @@ type: choice
 is_multiple_choice: false
 options:
 - text: Config
+- text: Severe
 - text: Info
 - text: Fine
-- text: Severe
 files:
 - name: src/Task.java
   visible: true

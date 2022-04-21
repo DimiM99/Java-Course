@@ -2,12 +2,12 @@ type: choice
 is_multiple_choice: true
 options:
 - text: x =&gt; x
+- text: x, y -&gt; x + y
+- text: (x, y) -&gt; x + y
+- text: x -&gt; x
 - text: x := x
 - text: (z) -&gt; z
-- text: x, y -&gt; x + y
 - text: (x, y) =&gt; x + y
-- text: x -&gt; x
-- text: (x, y) -&gt; x + y
 files:
 - name: src/Task.java
   visible: true

@@ -1,11 +1,11 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: malloc
 - text: array
-- text: new
-- text: alloc
 - text: create
+- text: alloc
+- text: new
+- text: malloc
 files:
 - name: src/Task.java
   visible: true

@@ -1,12 +1,12 @@
 type: choice
 is_multiple_choice: false
 options:
+- text: private default
+- text: private abstract
+- text: public abstract
+- text: public static
 - text: private static
 - text: public default
-- text: public abstract
-- text: private abstract
-- text: private default
-- text: public static
 files:
 - name: src/Task.java
   visible: true

@@ -1,8 +1,8 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: 4
 - text: 3
+- text: 4
 - text: 5
 - text: 2
 files:

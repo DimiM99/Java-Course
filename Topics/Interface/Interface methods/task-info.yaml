@@ -3,8 +3,8 @@ is_multiple_choice: true
 options:
 - text: Default methods in an interface should have a body.
 - text: An interface cannot include static and non-static methods at the same time.
-- text: Static methods in an interface cannot have a body.
 - text: Interface abstract methods cannot have a body.
+- text: Static methods in an interface cannot have a body.
 files:
 - name: src/Task.java
   visible: true

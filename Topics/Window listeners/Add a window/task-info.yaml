@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: addWindowAdapter
 - text: appendWindowListener
-- text: addWindowListener
 - text: attachWindowAdapter
+- text: addWindowAdapter
+- text: addWindowListener
 files:
 - name: src/Task.java
   visible: true

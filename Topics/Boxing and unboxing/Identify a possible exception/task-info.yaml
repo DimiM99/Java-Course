@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: false
 options:
+- text: NullPointerException
 - text: UnsupportedOperationException
 - text: NumberFormatException
 - text: ArithmeticException
-- text: NullPointerException
 files:
 - name: src/Task.java
   visible: true
