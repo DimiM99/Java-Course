@@ -1,12 +1,12 @@
 type: choice
 is_multiple_choice: true
 options:
+- text: JUPITER
+- text: MARS
 - text: URANUS
+- text: SATURN
 - text: EARTH
 - text: VENUS
-- text: MARS
-- text: SATURN
-- text: JUPITER
 files:
 - name: src/Task.java
   visible: true

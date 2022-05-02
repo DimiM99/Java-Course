@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/517553/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Thu, 21 Apr 2022 07:18:36 UTC
+update_date: Sun, 01 May 2022 07:47:00 UTC
 stages:
 - id: 897
   step: 12894
@@ -39,6 +39,8 @@ topics:
     theory_id: 7929
   - title: Computer programming
     theory_id: 8739
+  - title: Paradigms
+    theory_id: 15860
   - title: Introduction to Java
     theory_id: 3500
   - title: Basic literals
@@ -79,8 +81,6 @@ topics:
     theory_id: 3507
   - title: Switch statement
     theory_id: 3504
-  - title: Characters
-    theory_id: 3514
   - title: Sizes and ranges
     theory_id: 3532
   - title: Type casting
@@ -93,8 +93,6 @@ topics:
     theory_id: 3489
   - title: Functional decomposition
     theory_id: 10570
-  - title: String
-    theory_id: 3523
   - title: Primitive and reference types
     theory_id: 5035
   - title: Array
@@ -103,6 +101,10 @@ topics:
     theory_id: 3594
   - title: Iterating over arrays
     theory_id: 3602
+  - title: Characters
+    theory_id: 3514
+  - title: String
+    theory_id: 3523
   - title: Final variables
     theory_id: 7427
   - title: Errors in programs

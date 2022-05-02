@@ -4,7 +4,7 @@
  <body>
   <p>We use enums to define sets of unchangeable variables. After we defined them, we may need to extend the functionality of the enum and add values to the constants. Just like a class, an enum can have fields, constructors and methods. That's why an enum comes in handy when working with values you're not going to change.</p> 
   <p>To prove that, let's consider the following example. </p> 
-  <h5>Sample enum</h5> 
+  <h5 id="sample-enum">Sample enum</h5> 
   <p>Suppose we have to write a program that displays the battery level of a smartphone, power bank, or any device with a discrete scale.</p> 
   <p>First of all, let's create an enum with several threshold levels that represent the battery's level of charge:</p> 
   <pre><code class="language-java">public enum ChargeLevel {
@@ -76,7 +76,7 @@ System.out.println(ChargeLevel.LOW.color); // red</code>
 }</code></pre> 
   <p>Inside the <code class="language-java">findByNumberOfSections()</code> method, we iterated over the possible values using a <code class="language-java">for-each</code> loop. Here's an example of our method's output:</p> 
   <pre><code class="language-java">System.out.println(ChargeLevel.findByNumberOfSections(2)); // MEDIUM</code></pre> 
-  <h5>Conclusion</h5> 
+  <h5 id="conclusion">Conclusion</h5> 
   <p>Since an enum is a special class type in Java, we can add constructors, fields, and methods to it. Thus, it is possible to enhance our enum to include the values we need. The values of the constants are defined when we declare the enum. If you want to add enum fields, methods and constructors, you should do it after the enum constants' declaration.</p>
  </body>
 </html>
