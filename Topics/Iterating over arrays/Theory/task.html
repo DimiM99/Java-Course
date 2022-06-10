@@ -3,7 +3,7 @@
  <head></head>
  <body>
   <p>When we work with elements of an array, we often need to perform some kind of algorithm. For example, we might need to sort them, find the maximum element, print only positive numbers, reverse the order, calculate the arithmetic average of a series of numbers, and so on.</p> 
-  <h5 style="text-align: center;" id="processing-arrays-using-loops">Processing arrays using loops</h5> 
+  <h5 id="processing-arrays-using-loops" style="text-align: center;">Processing arrays using loops</h5> 
   <p>A convenient way to process an array is to iterate over it using a loop. The <code class="language-java">length</code> property of an array can help us avoid an <code class="language-java">ArrayIndexOutOfBoundsException</code>.</p> 
   <p>In the example below, you can see how we can <strong>fill an array with the squares of the indices of its elements</strong>.</p> 
   <pre><code class="language-java">int n = 10; // the size of an array
@@ -40,7 +40,7 @@ if (broken) {
 }</code></pre> 
   <p>For the given array the program prints <code class="language-java">"BROKEN"</code>.</p> 
   <p>While and do-while loops are also admissible for iterating arrays, but they are less commonly used.</p> 
-  <h5 style="text-align: center;" id="reading-an-array-from-the-standard-input">Reading an array from the standard input</h5> 
+  <h5 id="reading-an-array-from-the-standard-input" style="text-align: center;">Reading an array from the standard input</h5> 
   <p>We can also use a loop to read all the elements of an array from the standard input.</p> 
   <p>For example, the following input consists of two lines. The first line contains the length of the array and the second line contains all its elements.</p> 
   <pre><code class="language-java">5
@@ -58,7 +58,7 @@ for (int i = 0; i &lt; len; i++) {
 System.out.println(Arrays.toString(array)); // output the array</code></pre> 
   <p>The program outputs:</p> 
   <pre><code class="language-java">[101, 102, 504, 302, 881]</code></pre> 
-  <h5 style="text-align: center;" id="using-for-each-loop">Using for-each loop</h5> 
+  <h5 id="using-for-each-loop" style="text-align: center;">Using for-each loop</h5> 
   <p>Since Java 5, there has been a special form of the for-loop called <strong>for-each</strong>. It is used to iterate through each element of an array, a string, or a collection (we will learn them in the following topics) without indices.</p> 
   <p>Here's how it looks:</p> 
   <pre><code class="language-no-highlight">for (type var : array) { 

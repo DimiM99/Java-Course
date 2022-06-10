@@ -133,6 +133,8 @@ enum Player {
     X, O
 }
 
+//perhaps add another option for computer but with variable output with some constuctors that takes whatever value is left.
+
 enum status {
     X_WON, O_WON, DRAW, UNFINISHED, NOT_STARTED
 }
