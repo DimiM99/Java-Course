@@ -26,6 +26,7 @@
             <option value="$PROJECT_DIR$/Topics/Abstract class/Overriding when extending" />
             <option value="$PROJECT_DIR$/Topics/Abstract class/Theory" />
             <option value="$PROJECT_DIR$/Topics/Anonymous classes properties/Calculator" />
+            <option value="$PROJECT_DIR$/Topics/Anonymous classes properties/Create instance" />
             <option value="$PROJECT_DIR$/Topics/Anonymous classes properties/Iterations" />
             <option value="$PROJECT_DIR$/Topics/Anonymous classes properties/My possibilities" />
             <option value="$PROJECT_DIR$/Topics/Anonymous classes properties/Theory" />
@@ -83,6 +84,13 @@
             <option value="$PROJECT_DIR$/Topics/Functional interfaces/Statements" />
             <option value="$PROJECT_DIR$/Topics/Functional interfaces/Ternary predicate" />
             <option value="$PROJECT_DIR$/Topics/Functional interfaces/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Object/Boxes are not just objects" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Object/Correct the usage of non-generic class" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Object/Instance without type argument" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Object/Reusing code with Object" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Object/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Object/What is wrong" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Object/Why generics" />
             <option value="$PROJECT_DIR$/Topics/Getters and setters/Getting the fullname" />
             <option value="$PROJECT_DIR$/Topics/Getters and setters/Theory" />
             <option value="$PROJECT_DIR$/Topics/Inheritance/Classes for Hospital" />

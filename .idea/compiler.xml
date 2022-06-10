@@ -22,6 +22,7 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-Anonymous_classes-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Anonymous_classes-What_about_context.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Anonymous_classes_properties-Calculator.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Anonymous_classes_properties-Create_instance.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Anonymous_classes_properties-Iterations.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Anonymous_classes_properties-My_possibilities.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Anonymous_classes_properties-Theory.main" target="11" />
@@ -73,6 +74,13 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-Functional_interfaces-Statements.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Functional_interfaces-Ternary_predicate.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Functional_interfaces-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Generics_and_Object-Boxes_are_not_just_objects.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Generics_and_Object-Correct_the_usage_of_non-generic_class.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Generics_and_Object-Instance_without_type_argument.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Generics_and_Object-Reusing_code_with_Object.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Generics_and_Object-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Generics_and_Object-What_is_wrong.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Generics_and_Object-Why_generics.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Getters_and_setters-Getting_the_fullname.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Getters_and_setters-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Inheritance-Classes_for_Hospital.main" target="11" />

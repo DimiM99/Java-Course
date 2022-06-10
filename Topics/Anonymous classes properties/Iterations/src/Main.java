@@ -8,6 +8,14 @@ class IteratorExecutor {
 
     static void startIterations(int numberOfIterations) {
         // invoke the method performIterationsWithCallback here
+        LoopCallback callback = new LoopCallback() {
+            @Override
+            public void onNewIteration(int iteration) {
+                System.out.println("Iteration: " + iteration);
+            }
+        };
+
+        performIterationsWithCallback(numberOfIterations, callback);
     }
 }
 
