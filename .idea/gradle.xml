@@ -164,6 +164,10 @@
             <option value="$PROJECT_DIR$/Topics/Scanning the input/Printing each word in a new line" />
             <option value="$PROJECT_DIR$/Topics/Scanning the input/Printing strings in the same order" />
             <option value="$PROJECT_DIR$/Topics/Scanning the input/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Standard functional interfaces/An infinite numbers supplier" />
+            <option value="$PROJECT_DIR$/Topics/Standard functional interfaces/Package java.util.function" />
+            <option value="$PROJECT_DIR$/Topics/Standard functional interfaces/Ternary operator" />
+            <option value="$PROJECT_DIR$/Topics/Standard functional interfaces/Theory" />
             <option value="$PROJECT_DIR$/Topics/Standard logger/Default log level" />
             <option value="$PROJECT_DIR$/Topics/Standard logger/Find integer values of Log levels" />
             <option value="$PROJECT_DIR$/Topics/Standard logger/Handler Classes" />
@@ -186,6 +190,7 @@
             <option value="$PROJECT_DIR$/Topics/The Collections Framework overview/Creating instances" />
             <option value="$PROJECT_DIR$/Topics/The Collections Framework overview/Squares list" />
             <option value="$PROJECT_DIR$/Topics/The Collections Framework overview/Theory" />
+            <option value="$PROJECT_DIR$/Topics/The List interface/Split a list into sublists" />
             <option value="$PROJECT_DIR$/Topics/The List interface/The longest string in the list" />
             <option value="$PROJECT_DIR$/Topics/The List interface/Theory" />
             <option value="$PROJECT_DIR$/Topics/The keyword super/Accessing constructors of a base class" />

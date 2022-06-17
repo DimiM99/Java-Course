@@ -154,6 +154,10 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-Scanning_the_input-Printing_each_word_in_a_new_line.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Scanning_the_input-Printing_strings_in_the_same_order.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Scanning_the_input-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Standard_functional_interfaces-An_infinite_numbers_supplier.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Standard_functional_interfaces-Package_java.util.function.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Standard_functional_interfaces-Ternary_operator.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Standard_functional_interfaces-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Standard_logger-Default_log_level.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Standard_logger-Find_integer_values_of_Log_levels.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Standard_logger-Handler_Classes.main" target="11" />
@@ -184,6 +188,7 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-The_keyword_super-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-The_keyword_super-When_the_keyword_is_used.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-The_keyword_super-Why_we_use_the_super_keyword.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_List_interface-Split_a_list_into_sublists.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-The_List_interface-The_longest_string_in_the_list.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-The_List_interface-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-The_main_method-Print__We_are_robots.main" target="11" />
