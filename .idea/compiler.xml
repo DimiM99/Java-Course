@@ -129,6 +129,9 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-NPE-Lines_that_may_throw_NPE.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-NPE-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-NPE-Unknown_input.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Optional-Check_an_Optional_value.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Optional-Sum_up_optional_values.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Optional-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Overloading-A_pair_of_not_overloaded_methods.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Overloading-Overloading_methods.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Overloading-Print.main" target="11" />
