@@ -50,6 +50,13 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-Comments-The_forgotten_comments.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Comments-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Comments-What_comments_are_not_used_in_the_program.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Comparable-compareTo.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Comparable-Comparing_objects.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Comparable-Ratings.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Comparable-Rewrite_compareTo_method.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Comparable-Rules.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Comparable-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Comparable-Value_class.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Constructor-Automatically_generated_constructor.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Constructor-Geometric_cube.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Constructor-Theory.main" target="11" />
@@ -132,6 +139,7 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-Optional-Check_an_Optional_value.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Optional-Create_an_Optional_value.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Optional-Sum_up_optional_values.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Optional-The_address_book.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Optional-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Overloading-A_pair_of_not_overloaded_methods.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Overloading-Overloading_methods.main" target="11" />
@@ -197,6 +205,12 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-The_List_interface-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-The_main_method-Print__We_are_robots.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-The_main_method-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_Set_interface-A_subset_of_sorted_set.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_Set_interface-Creating_a_set.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_Set_interface-Essentials.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_Set_interface-Removing_elements.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_Set_interface-Strict_superset.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-The_Set_interface-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Types_and_variables-Fill_the_declaration.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Types_and_variables-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Window_listeners-Add_a_window.main" target="11" />

@@ -19,7 +19,6 @@ class InputStringReader {
         Scanner scanner = new Scanner(System.in);
         String val = scanner.next();
         Optional<String> result;
-
         if ("empty".equals(val)) {
             result = Optional.empty();
         } else  {
