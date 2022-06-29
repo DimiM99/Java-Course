@@ -57,6 +57,12 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-Comparable-Rules.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Comparable-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Comparable-Value_class.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Comparator-Comparing_numbers.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Comparator-Comparing_values.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Comparator-Method_name.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Comparator-Reverse_sorting.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Comparator-Sort_users.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Comparator-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Constructor-Automatically_generated_constructor.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Constructor-Geometric_cube.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Constructor-Theory.main" target="11" />
@@ -78,6 +84,17 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-Fields_and_methods_in_enum-Planets_of_the_solar_system.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Fields_and_methods_in_enum-Robot_control.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Fields_and_methods_in_enum-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Function_composition-Determine_the_result.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Function_composition-Disjunct_all.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Function_composition-How_to_compose_predicates_together.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Function_composition-The_chain_of_responsibility.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Function_composition-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Function_composition-What_function_is_executed_first.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Functional_data_processing_with_streams-Count_passwords.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Functional_data_processing_with_streams-Create_a_stream_from_a_list.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Functional_data_processing_with_streams-Print_elements_of_a_stream.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Functional_data_processing_with_streams-Statements_about_stream_operations.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Functional_data_processing_with_streams-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Functional_decomposition-Create_a_full_name.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Functional_decomposition-Decompose_a_math_function.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Functional_decomposition-Roots_of_quadratic_equation.main" target="11" />
@@ -95,6 +112,11 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-Generics_and_Object-Why_generics.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Getters_and_setters-Getting_the_fullname.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Getters_and_setters-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Hiding_and_overriding-Correctly_overridden_methods.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Hiding_and_overriding-Publications.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Hiding_and_overriding-Statements.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Hiding_and_overriding-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Hiding_and_overriding-Which_methods_will_be_overridden.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Inheritance-Classes_for_Hospital.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Inheritance-Find_the_same_hierarchy.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Inheritance-Theory.main" target="11" />
@@ -174,6 +196,8 @@
       <module name="Desktop_Tic-Tac-Toe.Topics-Standard_logger-Find_integer_values_of_Log_levels.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Standard_logger-Handler_Classes.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-Standard_logger-Theory.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Stream_filtering-Check_if_a_number_is_prime.main" target="11" />
+      <module name="Desktop_Tic-Tac-Toe.Topics-Stream_filtering-Theory.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-String-Check_burgs.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-String-Check_prefix_ignoring_the_case.main" target="11" />
       <module name="Desktop_Tic-Tac-Toe.Topics-String-Operations_with_strings.main" target="11" />

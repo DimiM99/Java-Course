@@ -44,3 +44,8 @@ content:
 - Optional
 - Comparable
 - The Set interface
+- Function composition
+- Comparator
+- Functional data processing with streams
+- Stream filtering
+- Hiding and overriding
