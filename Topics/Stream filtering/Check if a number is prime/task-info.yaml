@@ -32,5 +32,20 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2423#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: |
+    Failed test #2 of 35. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    3
+
+    Correct output:
+    True
+
+    Your code output:
+    False
+  time: Thu, 30 Jun 2022 11:14:12 UTC
 record: -1

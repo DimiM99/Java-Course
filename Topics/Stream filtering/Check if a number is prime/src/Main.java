@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.function.LongPredicate;
 import java.util.stream.*;
 
 class PrimeNumbers {
@@ -11,8 +12,9 @@ class PrimeNumbers {
      */
     private static boolean isPrime(long number) {
         // write your code here
-        Stream<long> s = number.stream();
-        return false;
+        LongPredicate check = (long value) -> number % value != 0;
+        Boolean status = LongStream.range(1,number+1).allMatch(check);
+        return status;
     }
 
     public static void main(String[] args) {
